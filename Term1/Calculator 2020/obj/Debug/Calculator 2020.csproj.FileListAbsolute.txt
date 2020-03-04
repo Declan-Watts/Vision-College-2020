@@ -1,0 +1,9 @@
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Calculator 2020\bin\Debug\Calculator 2020.exe.config
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Calculator 2020\bin\Debug\Calculator 2020.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Calculator 2020\bin\Debug\Calculator 2020.pdb
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Calculator 2020\obj\Debug\Calculator 2020.csprojAssemblyReference.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Calculator 2020\obj\Debug\Calculator_2020.Form1.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Calculator 2020\obj\Debug\Calculator_2020.Properties.Resources.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Calculator 2020\obj\Debug\Calculator 2020.csproj.GenerateResource.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Calculator 2020\obj\Debug\Calculator 2020.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Calculator 2020\obj\Debug\Calculator 2020.pdb
