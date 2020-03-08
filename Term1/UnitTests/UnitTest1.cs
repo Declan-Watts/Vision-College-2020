@@ -1,4 +1,5 @@
 using NUnit.Framework;
+using System;
 using Calculator_2020;
 namespace UnitTests
 {
@@ -31,6 +32,15 @@ namespace UnitTests
         public void Divide()
         {
             Assert.AreEqual(2, Calculator.Divide(2, 1));
+
+        }
+
+        [Test]
+        public void FloatPasser()
+        {
+            (float one, float two) AssignedValues = ValuePasser.ParseAssignValues("2", "1");
+
+            Assert.IsTrue(AssignedValues.one == 2 && AssignedValues.two == 1);
 
         }
     }

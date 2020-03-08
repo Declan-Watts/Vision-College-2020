@@ -22,50 +22,42 @@ namespace Calculator_2020
         private void btnMultiply_Click(object sender, EventArgs e)
         {
 
-            Tuple<float, float> AssignedValues = ParseAssignValues(txtNum1.Text, txtNum2.Text);
+            (float one, float two) AssignedValues = ValuePasser.ParseAssignValues(txtNum1.Text, txtNum2.Text);
 
-            AssignedValues.Deconstruct<float, float>(out float one, out float two); // This is not neccesary but for big prjects will save memory
+            float Answer = Calculator.Multiply(AssignedValues.one, AssignedValues.two);
 
-            float Answer = Calculator.Multiply(one, two);
-
-            lbxAnswer.Items.Add($@"{one} * {two} = {Answer}");
+            lbxAnswer.Items.Add($@"{AssignedValues.one} * {AssignedValues.two} = {Answer}");
         }
 
         private void btnPlus_Click(object sender, EventArgs e)
         {
-            Tuple<float, float> AssignedValues = ParseAssignValues(txtNum1.Text, txtNum2.Text);
+            (float one, float two) AssignedValues = ValuePasser.ParseAssignValues(txtNum1.Text, txtNum2.Text);
 
-            AssignedValues.Deconstruct<float, float>(out float one, out float two);
+            float Answer = Calculator.Addition(AssignedValues.one, AssignedValues.two);
 
-            float Answer = Calculator.Addition(one, two);
-
-            lbxAnswer.Items.Add($@"{one} + {two} = {Answer}");
+            lbxAnswer.Items.Add($@"{AssignedValues.one} + { AssignedValues.two} = {Answer}");
 
 
         }
 
         private void btnMinus_Click(object sender, EventArgs e)
         {
-            Tuple<float, float> AssignedValues = ParseAssignValues(txtNum1.Text, txtNum2.Text);
+            (float one, float two) AssignedValues = ValuePasser.ParseAssignValues(txtNum1.Text, txtNum2.Text);
 
-            AssignedValues.Deconstruct<float, float>(out float one, out float two);
+            float Answer = Calculator.Minus(AssignedValues.one, AssignedValues.two);
 
-            float Answer = Calculator.Minus(one, two);
-
-            lbxAnswer.Items.Add($@"{one} - {two} = {Answer}");
+            lbxAnswer.Items.Add($@"{AssignedValues.one} - { AssignedValues.two} = {Answer}");
 
 
         }
 
         private void btnDivide_Click(object sender, EventArgs e)
         {
-            Tuple<float, float> AssignedValues = ParseAssignValues(txtNum1.Text, txtNum2.Text);
+            (float one, float two) AssignedValues = ValuePasser.ParseAssignValues(txtNum1.Text, txtNum2.Text);
 
-            AssignedValues.Deconstruct<float, float>(out float one, out float two);
+            float Answer = Calculator.Divide(AssignedValues.one, AssignedValues.two);
 
-            float Answer = Calculator.Divide(one, two);
-
-            lbxAnswer.Items.Add($@"{one} / {two} = {Answer}");
+            lbxAnswer.Items.Add($@"{AssignedValues.one} / { AssignedValues.two} = {Answer}");
 
 
         }
@@ -87,12 +79,6 @@ namespace Calculator_2020
 
         //Creating a Method in a Class
 
-        private Tuple<float, float> ParseAssignValues(string txt1, string txt2)
-        {
-            float.TryParse(txt1, out float a); //This does a Try Catch statement so if it cannot convert it will make it null
-            float.TryParse(txt2, out float b);
 
-            return Tuple.Create(a, b);
-        }
     }
 }
