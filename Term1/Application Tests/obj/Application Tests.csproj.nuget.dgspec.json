@@ -1,0 +1,89 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\Application Tests\\Application Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\AllProjects\\AllProjects.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\AllProjects\\AllProjects.csproj",
+        "projectName": "AllProjects",
+        "projectPath": "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\AllProjects\\AllProjects.csproj"
+      },
+      "frameworks": {
+        "net472": {}
+      }
+    },
+    "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\Application Tests\\Application Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\Application Tests\\Application Tests.csproj",
+        "projectName": "Application Tests",
+        "projectPath": "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\Application Tests\\Application Tests.csproj",
+        "packagesPath": "C:\\Users\\Bsl3r\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\Application Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\Bsl3r\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.0": {
+            "projectReferences": {
+              "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\AllProjects\\AllProjects.csproj": {
+                "projectPath": "C:\\Users\\Bsl3r\\ownCloud\\DEV\\Vision College\\Term1\\AllProjects\\AllProjects.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.0": {
+          "dependencies": {
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.2.0, )"
+            },
+            "NUnit3TestAdapter": {
+              "target": "Package",
+              "version": "[3.13.0, )"
+            },
+            "nunit": {
+              "target": "Package",
+              "version": "[3.12.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

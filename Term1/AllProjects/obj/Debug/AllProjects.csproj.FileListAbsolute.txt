@@ -1,0 +1,11 @@
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\bin\Debug\AllProjects.exe.config
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\bin\Debug\AllProjects.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\bin\Debug\AllProjects.pdb
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\bin\Debug\Bunifu_UI_v1.52.dll
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\obj\Debug\AllProjects.csprojAssemblyReference.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\obj\Debug\AllProjects.Form1.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\obj\Debug\AllProjects.Properties.Resources.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\obj\Debug\AllProjects.csproj.GenerateResource.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\obj\Debug\AllProjects.csproj.CopyComplete
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\obj\Debug\AllProjects.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\AllProjects\obj\Debug\AllProjects.pdb

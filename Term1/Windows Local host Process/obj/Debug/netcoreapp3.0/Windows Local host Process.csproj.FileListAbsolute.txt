@@ -1,0 +1,11 @@
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\bin\Debug\netcoreapp3.0\Windows Local host Process.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\bin\Debug\netcoreapp3.0\Windows Local host Process.deps.json
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\bin\Debug\netcoreapp3.0\Windows Local host Process.runtimeconfig.json
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\bin\Debug\netcoreapp3.0\Windows Local host Process.runtimeconfig.dev.json
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\bin\Debug\netcoreapp3.0\Windows Local host Process.dll
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\bin\Debug\netcoreapp3.0\Windows Local host Process.pdb
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\obj\Debug\netcoreapp3.0\Windows Local host Process.csprojAssemblyReference.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\obj\Debug\netcoreapp3.0\Windows Local host Process.AssemblyInfoInputs.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\obj\Debug\netcoreapp3.0\Windows Local host Process.AssemblyInfo.cs
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\obj\Debug\netcoreapp3.0\Windows Local host Process.dll
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Windows Local host Process\obj\Debug\netcoreapp3.0\Windows Local host Process.pdb
