@@ -44,5 +44,25 @@ namespace Application_Tests
             Assert.IsTrue(AssignedValues.one == 2 && AssignedValues.two == 1);
 
         }
+
+        [Test]
+        public void FloatParsser()
+        {
+            float a = ValuePasser.ParseFloat("1");
+            float b = ValuePasser.ParseFloat("a");
+            Assert.IsTrue(a == 1 && b == 0);
+        }
+
+        [Test]
+        public void CelsuisConvert()
+        {
+            Assert.AreEqual(0, Temperature.ConvertToCelsius(32));
+        }
+
+        [Test]
+        public void FarhenheitConvert()
+        {
+            Assert.AreEqual(32, Temperature.ConvertToFahrenheit(0));
+        }
     }
 }

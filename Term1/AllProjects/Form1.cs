@@ -36,6 +36,8 @@ namespace AllProjects
             dashPanel.Enabled = true;
             calcPanel.Enabled = false;
             tmpPanel.Enabled = false;
+            gtnPanel.Enabled = false;
+            gtnPanel.Visible = false;
         }
 
         private void btnCalc_Click(object sender, EventArgs e)
@@ -47,6 +49,8 @@ namespace AllProjects
             dashPanel.Enabled = false;
             calcPanel.Enabled = true;
             tmpPanel.Enabled = false;
+            gtnPanel.Enabled = false;
+            gtnPanel.Visible = false;
         }
 
         private void btnTemp_Click(object sender, EventArgs e)
@@ -56,8 +60,10 @@ namespace AllProjects
             tmpPanel.Visible = true;
             tmpPanel.BringToFront();
             dashPanel.Enabled = false;
-            calcPanel.Enabled = true;
+            calcPanel.Enabled = false;
             tmpPanel.Enabled = true;
+            gtnPanel.Enabled = false;
+            gtnPanel.Visible = false;
         }
 
         private void btnCalcAdd_Click(object sender, EventArgs e)
@@ -94,6 +100,59 @@ namespace AllProjects
             float Answer = Calculator.Divide(AssignedValues.one, AssignedValues.two);
 
             lbxCalcAnswer.Items.Add($@"{AssignedValues.one} / { AssignedValues.two} = {Answer}");
+        }
+
+        private void btnCelsius_Click(object sender, EventArgs e)
+        {
+            // Parse Text into Floats
+            float temp = ValuePasser.ParseFloat(txtTemp.Text);
+            // Send Floats to Convertor Method
+            float Answer = Temperature.ConvertToCelsius(temp);
+            // Display Result in LbxOutput
+            lbxTempOutput.Items.Add($"{Answer} Degrees Celsius");
+        }
+
+        private void btnFahrenheit_Click(object sender, EventArgs e)
+        {
+            // Parse Text into Floats
+            float temp = ValuePasser.ParseFloat(txtTemp.Text);
+            // Send Floats to Convertor Method
+            float Answer = Temperature.ConvertToFahrenheit(temp);
+            // Display Result in LbxOutput
+            lbxTempOutput.Items.Add($"{Answer} Degrees Fahrenheit");
+        }
+
+        private void btnGuessTheNumber_Click(object sender, EventArgs e)
+        {
+            dashPanel.Visible = false;
+            calcPanel.Visible = false;
+            tmpPanel.Visible = false;
+            gtnPanel.BringToFront();
+            dashPanel.Enabled = false;
+            calcPanel.Enabled = false;
+            tmpPanel.Enabled = false;
+            gtnPanel.Enabled = true;
+            gtnPanel.Visible = true;
+        }
+
+        private void btnHigher_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnCorrect_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnLower_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnGTNStart_Click(object sender, EventArgs e)
+        {
+            GTN.Start();
         }
     }
 }

@@ -15,5 +15,11 @@ namespace AllProjects
             var values = (one: a, two: b);
             return values;
         }
+
+        public static float ParseFloat(string a)
+        {
+            float.TryParse(a, out float b);
+            return b;
+        }
     }
 }
