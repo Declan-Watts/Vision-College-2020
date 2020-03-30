@@ -57,13 +57,13 @@ namespace Assessment1_Client
 
         private void btnConnect_Click(object sender, EventArgs e)
         {
-            client.Connect("localhost", 2020, "Jack"); //Connecting to the host 
+            client.Connect("ddtuitions.com", 2020, "Jack"); //Connecting to the host 
                                                        //(on the same machine) with port 2020 and ID "Jack"
         }
 
         private void btnSendMessage_Click(object sender, EventArgs e)
         {
-            client.SendData(ConvertStringToBytes(txtChatMessage.Text));
+            client.SendData(ConvertStringToBytes(txtChatMessage.Text), "Jack");
         }
     }
 }

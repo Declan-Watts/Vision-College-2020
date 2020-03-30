@@ -1,0 +1,13 @@
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\bin\Debug\netcoreapp3.1\Assessment1_Server.exe
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\bin\Debug\netcoreapp3.1\Assessment1_Server.deps.json
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\bin\Debug\netcoreapp3.1\Assessment1_Server.runtimeconfig.json
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\bin\Debug\netcoreapp3.1\Assessment1_Server.runtimeconfig.dev.json
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\bin\Debug\netcoreapp3.1\Assessment1_Server.dll
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\bin\Debug\netcoreapp3.1\Assessment1_Server.pdb
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\bin\Debug\netcoreapp3.1\NetComm.dll
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\obj\Debug\netcoreapp3.1\Assessment1_Server.csprojAssemblyReference.cache
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\obj\Debug\netcoreapp3.1\Assessment1_Server.AssemblyInfoInputs.cache
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\obj\Debug\netcoreapp3.1\Assessment1_Server.AssemblyInfo.cs
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\obj\Debug\netcoreapp3.1\Assessment1_Server.csproj.CopyComplete
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\obj\Debug\netcoreapp3.1\Assessment1_Server.dll
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1_Server\Assessment1_Server\obj\Debug\netcoreapp3.1\Assessment1_Server.pdb

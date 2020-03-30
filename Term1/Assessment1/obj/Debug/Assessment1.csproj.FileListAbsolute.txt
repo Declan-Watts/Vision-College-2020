@@ -9,3 +9,13 @@ C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Assessment1\obj\Debug\Assessmen
 C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Assessment1\obj\Debug\Assessment1.csproj.CopyComplete
 C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Assessment1\obj\Debug\Assessment1.exe
 C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term1\Assessment1\obj\Debug\Assessment1.pdb
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\bin\Debug\Assessment1.exe.config
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\bin\Debug\Assessment1.exe
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\bin\Debug\Assessment1.pdb
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\obj\Debug\Assessment1.csprojAssemblyReference.cache
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\obj\Debug\Assessment1.Form1.resources
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\obj\Debug\Assessment1.Properties.Resources.resources
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\obj\Debug\Assessment1.csproj.GenerateResource.cache
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\obj\Debug\Assessment1.csproj.CopyComplete
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\obj\Debug\Assessment1.exe
+D:\Documents\Coding\Vision-College-2020\Term1\Assessment1\obj\Debug\Assessment1.pdb
