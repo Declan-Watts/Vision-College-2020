@@ -61,6 +61,10 @@ namespace Assessment_1___Hackers_vs_CyberCrime
             // MoveSafe is a method of myGame class
             if (myGame.MoveSafe())
             {
+                // Running Sound for the "Hack"
+                SoundPlayer hackSound = new SoundPlayer(Properties.Resources.hacking);
+                hackSound.Play();
+
                 // If MoveSafe = True then set the serverImage of the current round
                 // to the hacked image. 
                 // myGame.CurrentRound is a method of the class myGame that will return
@@ -81,6 +85,9 @@ namespace Assessment_1___Hackers_vs_CyberCrime
                 
             } else
             {
+                // Running Sound for the "Hack"
+                SoundPlayer caughtSound = new SoundPlayer(Properties.Resources.Siren);
+                caughtSound.Play();
                 // if MoveSafe = false then set the image to Caught
                 serverImage[myGame.CurrentRound].Image = Properties.Resources.caught;
                 gameOver();
@@ -140,5 +147,9 @@ namespace Assessment_1___Hackers_vs_CyberCrime
             lblCurrentState.Text = myGame.getCurrentState();
         }
 
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

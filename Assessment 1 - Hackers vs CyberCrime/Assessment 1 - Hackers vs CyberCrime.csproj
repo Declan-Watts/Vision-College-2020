@@ -102,5 +102,11 @@
   <ItemGroup>
     <None Include="Resources\y2mate.com - The Sound of dial-up Internet_gsNaR6FRuO0.wav" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Siren.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cut_y2mate.com - Binary Code - Interface Sound Effects _ Sci-Fi Computer Beeps &amp; Data Processing Sounds_Y8w-2lzM-C4.wav" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

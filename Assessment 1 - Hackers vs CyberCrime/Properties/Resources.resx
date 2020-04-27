@@ -130,7 +130,13 @@
   <data name="hacked" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder-serverracks2-4417113_116614.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="hacking" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cut_y2mate.com - Binary Code - Interface Sound Effects _ Sci-Fi Computer Beeps &amp; Data Processing Sounds_Y8w-2lzM-C4.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="server" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\iconfinder-server2-4417099_116631.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Siren" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Siren.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>
