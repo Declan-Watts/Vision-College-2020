@@ -1,0 +1,9 @@
+D:\Documents\Coding\Vision-College-2020\DSED-02\bin\Debug\DSED-02.exe.config
+D:\Documents\Coding\Vision-College-2020\DSED-02\bin\Debug\DSED-02.exe
+D:\Documents\Coding\Vision-College-2020\DSED-02\bin\Debug\DSED-02.pdb
+D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED-02.csprojAssemblyReference.cache
+D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED_02.Form1.resources
+D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED_02.Properties.Resources.resources
+D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED-02.csproj.GenerateResource.cache
+D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED-02.exe
+D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED-02.pdb

@@ -1,0 +1,18 @@
+D:\Documents\Coding\Assessment 1 - Hackers vs CyberCrime\bin\Debug\Assessment 1 - Hackers vs CyberCrime.exe.config
+D:\Documents\Coding\Assessment 1 - Hackers vs CyberCrime\bin\Debug\Assessment 1 - Hackers vs CyberCrime.exe
+D:\Documents\Coding\Assessment 1 - Hackers vs CyberCrime\bin\Debug\Assessment 1 - Hackers vs CyberCrime.pdb
+D:\Documents\Coding\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment 1 - Hackers vs CyberCrime.csprojAssemblyReference.cache
+D:\Documents\Coding\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment_1___Hackers_vs_CyberCrime.Form1.resources
+D:\Documents\Coding\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment_1___Hackers_vs_CyberCrime.Properties.Resources.resources
+D:\Documents\Coding\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment 1 - Hackers vs CyberCrime.csproj.GenerateResource.cache
+D:\Documents\Coding\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment 1 - Hackers vs CyberCrime.exe
+D:\Documents\Coding\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment 1 - Hackers vs CyberCrime.pdb
+D:\Documents\Coding\Vision-College-2020\Assessment 1 - Hackers vs CyberCrime\bin\Debug\Assessment 1 - Hackers vs CyberCrime.exe.config
+D:\Documents\Coding\Vision-College-2020\Assessment 1 - Hackers vs CyberCrime\bin\Debug\Assessment 1 - Hackers vs CyberCrime.exe
+D:\Documents\Coding\Vision-College-2020\Assessment 1 - Hackers vs CyberCrime\bin\Debug\Assessment 1 - Hackers vs CyberCrime.pdb
+D:\Documents\Coding\Vision-College-2020\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment 1 - Hackers vs CyberCrime.csprojAssemblyReference.cache
+D:\Documents\Coding\Vision-College-2020\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment_1___Hackers_vs_CyberCrime.Form1.resources
+D:\Documents\Coding\Vision-College-2020\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment_1___Hackers_vs_CyberCrime.Properties.Resources.resources
+D:\Documents\Coding\Vision-College-2020\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment 1 - Hackers vs CyberCrime.csproj.GenerateResource.cache
+D:\Documents\Coding\Vision-College-2020\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment 1 - Hackers vs CyberCrime.exe
+D:\Documents\Coding\Vision-College-2020\Assessment 1 - Hackers vs CyberCrime\obj\Debug\Assessment 1 - Hackers vs CyberCrime.pdb

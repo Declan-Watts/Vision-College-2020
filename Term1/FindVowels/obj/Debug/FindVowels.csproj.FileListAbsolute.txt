@@ -1,0 +1,9 @@
+D:\Documents\Coding\Vision-College-2020\Term1\FindVowels\bin\Debug\FindVowels.exe.config
+D:\Documents\Coding\Vision-College-2020\Term1\FindVowels\bin\Debug\FindVowels.exe
+D:\Documents\Coding\Vision-College-2020\Term1\FindVowels\bin\Debug\FindVowels.pdb
+D:\Documents\Coding\Vision-College-2020\Term1\FindVowels\obj\Debug\FindVowels.csprojAssemblyReference.cache
+D:\Documents\Coding\Vision-College-2020\Term1\FindVowels\obj\Debug\FindVowels.Form1.resources
+D:\Documents\Coding\Vision-College-2020\Term1\FindVowels\obj\Debug\FindVowels.Properties.Resources.resources
+D:\Documents\Coding\Vision-College-2020\Term1\FindVowels\obj\Debug\FindVowels.csproj.GenerateResource.cache
+D:\Documents\Coding\Vision-College-2020\Term1\FindVowels\obj\Debug\FindVowels.exe
+D:\Documents\Coding\Vision-College-2020\Term1\FindVowels\obj\Debug\FindVowels.pdb

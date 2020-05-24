@@ -1,0 +1,9 @@
+D:\Documents\Coding\Vision-College-2020\Term1\ArraysPractice\bin\Debug\ArraysPractice.exe.config
+D:\Documents\Coding\Vision-College-2020\Term1\ArraysPractice\bin\Debug\ArraysPractice.exe
+D:\Documents\Coding\Vision-College-2020\Term1\ArraysPractice\bin\Debug\ArraysPractice.pdb
+D:\Documents\Coding\Vision-College-2020\Term1\ArraysPractice\obj\Debug\ArraysPractice.csprojAssemblyReference.cache
+D:\Documents\Coding\Vision-College-2020\Term1\ArraysPractice\obj\Debug\ArraysPractice.Form1.resources
+D:\Documents\Coding\Vision-College-2020\Term1\ArraysPractice\obj\Debug\ArraysPractice.Properties.Resources.resources
+D:\Documents\Coding\Vision-College-2020\Term1\ArraysPractice\obj\Debug\ArraysPractice.csproj.GenerateResource.cache
+D:\Documents\Coding\Vision-College-2020\Term1\ArraysPractice\obj\Debug\ArraysPractice.exe
+D:\Documents\Coding\Vision-College-2020\Term1\ArraysPractice\obj\Debug\ArraysPractice.pdb

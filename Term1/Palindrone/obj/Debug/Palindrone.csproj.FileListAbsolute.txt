@@ -1,0 +1,9 @@
+D:\Documents\Coding\Vision-College-2020\Term1\Palindrone\bin\Debug\Palindrone.exe.config
+D:\Documents\Coding\Vision-College-2020\Term1\Palindrone\bin\Debug\Palindrone.exe
+D:\Documents\Coding\Vision-College-2020\Term1\Palindrone\bin\Debug\Palindrone.pdb
+D:\Documents\Coding\Vision-College-2020\Term1\Palindrone\obj\Debug\Palindrone.csprojAssemblyReference.cache
+D:\Documents\Coding\Vision-College-2020\Term1\Palindrone\obj\Debug\Palindrone.Form1.resources
+D:\Documents\Coding\Vision-College-2020\Term1\Palindrone\obj\Debug\Palindrone.Properties.Resources.resources
+D:\Documents\Coding\Vision-College-2020\Term1\Palindrone\obj\Debug\Palindrone.csproj.GenerateResource.cache
+D:\Documents\Coding\Vision-College-2020\Term1\Palindrone\obj\Debug\Palindrone.exe
+D:\Documents\Coding\Vision-College-2020\Term1\Palindrone\obj\Debug\Palindrone.pdb
