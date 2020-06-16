@@ -83,5 +83,17 @@
   <ItemGroup>
     <None Include="Resources\background.png" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\csharpLogoResize.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\javaLogoResize.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\phpLogoResize.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pythonLogoResize.png" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
