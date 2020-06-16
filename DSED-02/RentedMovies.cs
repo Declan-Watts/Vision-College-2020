@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace DSED_02
 {
-    class RentedMovies
+    public class RentedMovies
     {
         Database moviesDatabase = new Database();
         sqlMethods sql = new sqlMethods();

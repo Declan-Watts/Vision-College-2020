@@ -8,7 +8,7 @@ using System.Data.SqlClient;
 
 namespace DSED_02
 {
-    class Movies
+    public class Movies
     {
         Database moviesDatabase = new Database();
         sqlMethods sql = new sqlMethods();
@@ -22,6 +22,7 @@ namespace DSED_02
             DataView moviesTable = moviesDatabase.SelectAll(fields, table, whereClause);
             return moviesTable;
         }
+
 
         public DataView ReadEntriesBestMovies(string whereClause)
         {
