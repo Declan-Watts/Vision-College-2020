@@ -10,7 +10,7 @@ namespace DSED_02
 {
     class Database
     {
-        private string connectionString = @"Data Source=DESKTOP-2C9TOIF\SQLEXPRESS;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False;Initial Catalog=Movies;";
+        private string connectionString = @"Data Source=DESKTOP-D50HAUI;Initial Catalog=Movies;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False";
 
         public DataView SelectAll(string selectFields, string table, string whereClause)
         {
@@ -36,6 +36,47 @@ namespace DSED_02
             }
 
         }
+        public bool CreateData(string table, string setFields, string[] parameterAssign, string parameterAssignFields, string[] data)
+        {
+            // Define DB connection
+            using (SqlConnection Con = new SqlConnection(connectionString))
+            {
+                // Define Query Statement
+                string sql = $@"INSERT INTO {table} ({setFields}) VALUES ({parameterAssignFields})";
+
+                // Define SQL Command
+                SqlCommand updateData = new SqlCommand(sql, Con);
+
+                if (parameterAssign.Length == data.Length)
+                {
+                    for (int i = 0; i < parameterAssign.Length; i++)
+                    {
+                        updateData.Parameters.AddWithValue(parameterAssign[i], data[i]);
+                    }
+                }
+
+                try
+                {
+                    Con.Open();
+
+                    // Run SQL Command - Will return how many rows were effected
+                    int returnValue = updateData.ExecuteNonQuery();
+
+                    // Close DB Connection
+                    Con.Close();
+
+
+                    return true;
+                }
+                catch (Exception)
+                {
+
+                    return false;
+                }
+                // Open DB Connection
+
+            }
+        }
 
         public bool UpdateData(string table, string setFields, string whereClause, string[] parameterAssign, string[] data)
         {
@@ -56,17 +97,26 @@ namespace DSED_02
                     }
                 }
 
+                try
+                {
+                    Con.Open();
+
+                    // Run SQL Command - Will return how many rows were effected
+                    int returnValue = updateData.ExecuteNonQuery();
+
+                    // Close DB Connection
+                    Con.Close();
+
+
+                    return true;
+                }
+                catch (Exception)
+                {
+
+                    return false;
+                }
                 // Open DB Connection
-                Con.Open();
 
-                // Run SQL Command - Will return how many rows were effected
-                int returnValue = updateData.ExecuteNonQuery();
-
-                // Close DB Connection
-                Con.Close();
-
-
-                return true;
             }
         }
 
@@ -86,16 +136,24 @@ namespace DSED_02
 
                 // Open DB Connection
                 Con.Open();
+                try
+                {
+                    int returnValue = deleteData.ExecuteNonQuery();
 
+                    // Close DB Connection
+                    Con.Close();
+
+                    return true;
+                }
+                catch (Exception)
+                {
+
+                    return false;
+                }
                 // Run SQL Command - Will return how many rows were effected
-                int returnValue = deleteData.ExecuteNonQuery();
 
-                // Close DB Connection
-                Con.Close();
-
-                return true;
             }
-            
+
         }
     }
 }

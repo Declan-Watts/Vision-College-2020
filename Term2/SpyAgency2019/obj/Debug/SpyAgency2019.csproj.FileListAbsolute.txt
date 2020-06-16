@@ -1,0 +1,9 @@
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term2\SpyAgency2019\obj\Debug\SpyAgency2019.csprojAssemblyReference.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term2\SpyAgency2019\obj\Debug\SpyAgency2019.Form1.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term2\SpyAgency2019\obj\Debug\SpyAgency2019.Properties.Resources.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term2\SpyAgency2019\obj\Debug\SpyAgency2019.csproj.GenerateResource.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term2\SpyAgency2019\bin\Debug\SpyAgency2019.exe.config
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term2\SpyAgency2019\bin\Debug\SpyAgency2019.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term2\SpyAgency2019\bin\Debug\SpyAgency2019.pdb
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term2\SpyAgency2019\obj\Debug\SpyAgency2019.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\Term2\SpyAgency2019\obj\Debug\SpyAgency2019.pdb

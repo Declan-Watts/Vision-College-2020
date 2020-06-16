@@ -7,3 +7,12 @@ D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED_02.Properties.Res
 D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED-02.csproj.GenerateResource.cache
 D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED-02.exe
 D:\Documents\Coding\Vision-College-2020\DSED-02\obj\Debug\DSED-02.pdb
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED-02\bin\Debug\DSED-02.exe.config
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED-02\bin\Debug\DSED-02.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED-02\bin\Debug\DSED-02.pdb
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED-02\obj\Debug\DSED-02.csprojAssemblyReference.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED-02\obj\Debug\DSED_02.Form1.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED-02\obj\Debug\DSED_02.Properties.Resources.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED-02\obj\Debug\DSED-02.csproj.GenerateResource.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED-02\obj\Debug\DSED-02.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED-02\obj\Debug\DSED-02.pdb
