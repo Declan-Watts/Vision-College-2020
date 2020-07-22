@@ -1,0 +1,10 @@
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\bin\Debug\DSED05.exe.config
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\bin\Debug\DSED05.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\bin\Debug\DSED05.pdb
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\obj\Debug\DSED05.csprojAssemblyReference.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\obj\Debug\DSED05.Form1.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\obj\Debug\DSED05.Properties.Resources.resources
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\obj\Debug\DSED05.csproj.GenerateResource.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\obj\Debug\DSED05.csproj.CoreCompileInputs.cache
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\obj\Debug\DSED05.exe
+C:\Users\Bsl3r\ownCloud\DEV\Vision College\DSED05\obj\Debug\DSED05.pdb
