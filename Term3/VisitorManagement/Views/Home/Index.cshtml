@@ -1,0 +1,23 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">@ViewBag.Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+    <div class="row">
+        @foreach (var item in (IEnumerable<string>)ViewData["Conditions"])
+        {
+            if (@item.ToString().Contains("Heading"))
+            {
+                <h3 class="col-12">@item.ToString().Replace("Heading", "")</h3>
+            }
+            else
+            {
+                <p class="col-4 text-left">@item.ToString();</p>
+            }
+
+        }
+    </div>
+
+</div>

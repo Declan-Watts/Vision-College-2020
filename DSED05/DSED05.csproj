@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Business\Factory.cs" />
+    <Compile Include="Business\Jack.cs" />
+    <Compile Include="Business\Jeremy.cs" />
+    <Compile Include="Business\Punter.cs" />
+    <Compile Include="Business\Racer.cs" />
+    <Compile Include="Business\Vaughn.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
