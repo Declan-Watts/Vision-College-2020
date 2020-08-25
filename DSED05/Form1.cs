@@ -16,6 +16,8 @@ namespace DSED05
         //Create my Punters Balance Labels
         Label[] puntersBalanceLabels;
 
+        RadioButton[] punterRadioButtons;
+
         //Which Racer Wins
         private int RacerWinner;
 
@@ -32,7 +34,7 @@ namespace DSED05
         }
         private void Form1_Load(object sender, EventArgs e)
         {
-
+            punterRadioButtons = new RadioButton[] { radJack, radJeremy, radVaughn };
         }
         #endregion
 
@@ -68,14 +70,43 @@ namespace DSED05
         #region Resetting the Race
         private void ResetRace()
         {
+            // Putting all of the racers back the the beginning and resetting all of their bets
             int start = pbRaceTrack.Left;
+            lbxEvents.Items.Clear();
             for (int i = 0; i < racers.Length; i++)
             {
                 racers[i].myPB.Left = start;
             }
+            int count = 0;
             for (int i = 0; i < myPunters.Length; i++)
             {
                 myPunters[i].bet = 0;
+                // Disabling the Punters from playing when they have run out of cash
+
+                if (myPunters[i].cash == 0)
+                {
+                    count = count + 1;
+                    foreach (RadioButton radioButton in punterRadioButtons)
+                    {
+                        if (radioButton.Text == myPunters[i].name)
+                        {
+                            radioButton.Enabled = false;
+                            lbxEvents.Items.Add($"{myPunters[i].name} is Busted");
+                        }
+                    }
+                }
+                // If all of the punters have no cash, it will restart the game and set all of the radiobuttons back to enabled
+                if (count == myPunters.Length)
+                {
+                    MessageBox.Show("Game Over, All punters have no more cash. Restarting Game");
+                    LoadPunters();
+                    updatePuntersBalanceLabels();
+                    foreach (RadioButton radioButton in punterRadioButtons)
+                    {
+                        radioButton.Enabled = true;
+
+                    }
+                }
             }
         }
         #endregion
@@ -83,36 +114,55 @@ namespace DSED05
         #region Running the Race
         private void RunRace()
         {
-            bool end = false;
+            //Setting all Radio Buttons to false
+            foreach (RadioButton radioButton in punterRadioButtons)
+            {
+                radioButton.Checked = false;
+            }
 
+
+            bool end = false;
+            //Running the rade until end has been set to True
             while (!end)
             {
+                //Calculating the distance of the track
                 int distance = pbRaceTrack.Width - (pbRacer1.Width);
+                // Initializing Random
                 var myrand = new Random();
+                // Looping over each racer and setting a random number for them to move forward
                 for (int i = 0; i < racers.Length; i++)
                 {
+                    // Moving their picture boxes that set amount forward
                     racers[i].myPB.Left += myrand.Next(1, 5);
 
+                    // Checking if a racer has reached the end
                     if (racers[i].myPB.Left > distance)
                     {
+                        // Setting the index of the winner
                         RacerWinner = i;
+                        // setting the end to true
                         end = true;
                         betPlaced = false;
+                        // Logging the winning racer
                         lbxEvents.Items.Add($"{racers[i].name} Wins!");
 
                     }
                 }
             }
+            // Finding all of the winning and loosing punters
             FindWinner();
         }
 
         #region Race Finished
         private void FindWinner()
         {
+            // creating an arary with the index of the punters that have won and lost
             int[] winners = new int[0];
             int[] loosers = new int[0];
-            for (int i = 0; i < 3; i++)
+            // Looping over the punters
+            for (int i = 0; i < myPunters.Length; i++)
             {
+                // Checking to see if the punter has won, else they will be added to the loosers array
                 if (myPunters[i].racer == RacerWinner)
                 {
                     myPunters[i].cash += myPunters[i].bet;
@@ -126,17 +176,21 @@ namespace DSED05
                     loosers[loosers.Length - 1] = i;
                 }
             }
+
+            // Creating the winners and loosers text to be output into the Events Box
             // Label Winner
             string[] winnersTextArr = WinnersText(winners, loosers);
             foreach (string text in winnersTextArr)
             {
                 lbxEvents.Items.Add(text);
             }
+            // Updating the punters Balance labels
             updatePuntersBalanceLabels();
         }
 
         private string[] WinnersText(int[] winners, int[] loosers)
         {
+            // Looping over the winners and loosers text and creating an array with the text to be put into the events box
             string[] winnersText = new string[3];
             for (int i = 0; i < winners.Length; i++)
             {
@@ -164,6 +218,7 @@ namespace DSED05
         private void placeBet()
         {
             var currentPunter = puntersRADBox.Controls.OfType<RadioButton>().FirstOrDefault(r => r.Checked);
+
             if (currentPunter != null)
             {
                 if (betAmount.Value.ToString() != "0")
@@ -223,7 +278,7 @@ namespace DSED05
         {
             for (int i = 0; i < myPunters.Length; i++)
             {
-                if (myPunters[i].bet == 0)
+                if (myPunters[i].bet == 0 && myPunters[i].cash != 0)
                 {
                     return false;
                 }
@@ -263,6 +318,21 @@ namespace DSED05
         private void btnPlaceBet_Click(object sender, EventArgs e)
         {
             placeBet();
+        }
+
+        private void punterRad_Changed(object sender, EventArgs e)
+        {
+            RadioButton rad = (RadioButton)sender;
+            if (rad.Checked == true)
+            {
+                foreach (var punter in myPunters)
+                {
+                    if (punter.name == rad.Text)
+                    {
+                        betAmount.Maximum = (decimal)punter.cash;
+                    }
+                }
+            }
         }
         #endregion
 

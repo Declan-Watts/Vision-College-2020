@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Drawing;
+﻿using System.Drawing;
 
 namespace DSED05.Business
 {
@@ -12,7 +7,7 @@ namespace DSED05.Business
         public Vaughn()
         {
             name = "Vaughn";
-            cash = 20;
+            cash = 50;
             myColor = Color.Blue;
         }
     }

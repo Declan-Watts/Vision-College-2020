@@ -1,7 +1,7 @@
 ﻿namespace DSED05.Business
 {
 
-    class Factory
+    public class Factory
     {
         //Decides which punter to instatiate 0,1,2
 

@@ -1,14 +1,10 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
 using System.Drawing;
+using System.Windows.Forms;
 
 namespace DSED05.Business
 {
-    class Punter
+    public class Punter
     {
         public string name { get; set; }
         public int racer { get; set; }

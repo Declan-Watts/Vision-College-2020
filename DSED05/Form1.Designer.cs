@@ -123,7 +123,7 @@
             this.btnReset.Name = "btnReset";
             this.btnReset.Size = new System.Drawing.Size(98, 49);
             this.btnReset.TabIndex = 6;
-            this.btnReset.Text = "Reset";
+            this.btnReset.Text = "Next Round";
             this.btnReset.UseVisualStyleBackColor = true;
             this.btnReset.Click += new System.EventHandler(this.btnReset_Click);
             // 
@@ -159,6 +159,7 @@
             this.radJeremy.TabStop = true;
             this.radJeremy.Text = "Jeremy";
             this.radJeremy.UseVisualStyleBackColor = true;
+            this.radJeremy.CheckedChanged += new System.EventHandler(this.punterRad_Changed);
             // 
             // radVaughn
             // 
@@ -170,6 +171,7 @@
             this.radVaughn.TabStop = true;
             this.radVaughn.Text = "Vaughn";
             this.radVaughn.UseVisualStyleBackColor = true;
+            this.radVaughn.CheckedChanged += new System.EventHandler(this.punterRad_Changed);
             // 
             // radJack
             // 
@@ -181,6 +183,7 @@
             this.radJack.TabStop = true;
             this.radJack.Text = "Jack";
             this.radJack.UseVisualStyleBackColor = true;
+            this.radJack.CheckedChanged += new System.EventHandler(this.punterRad_Changed);
             // 
             // betAmount
             // 

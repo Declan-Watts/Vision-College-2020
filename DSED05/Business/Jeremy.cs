@@ -12,7 +12,7 @@ namespace DSED05.Business
         public Jeremy()
         {
             name = "Jeremy";
-            cash = 20;
+            cash = 50;
             myColor = Color.Blue;
         }
     }
