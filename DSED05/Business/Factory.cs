@@ -12,9 +12,9 @@
                 case 0:
                     return new Jack();
                 case 1:
-                    return new Jeremy();
-                case 2:
                     return new Vaughn();
+                case 2:
+                    return new Jeremy();
                 default:
                     return null;
             }

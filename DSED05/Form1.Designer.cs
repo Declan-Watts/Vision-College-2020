@@ -224,6 +224,7 @@
             this.lblJeremy.Size = new System.Drawing.Size(35, 13);
             this.lblJeremy.TabIndex = 12;
             this.lblJeremy.Text = "label3";
+            this.lblJeremy.Click += new System.EventHandler(this.lblJeremy_Click);
             // 
             // lbxEvents
             // 
